@@ -10,19 +10,17 @@ I’m especially interested in the intersection of **technical systems and human
 
 ## Selected projects
 
-### [Snohomish County Tax Foreclosure Analyzer](https://github.com/shotsubakiyama/snohomish-tax-foreclosure-analyzer)
-A public-data research project reconstructing how properties move through Snohomish County's tax-foreclosure process.
+### [Grey Cells — Craigslist Owner-Managed Rental Search](https://github.com/shotsubakiyama/grey-cells)
 
-The project combines fragmented county records, PDF extraction, OCR, record linkage, and data-quality controls to create a parcel-level lifecycle dataset and analyze auction outcomes.
+A local Python and SQLite pipeline I run daily to search Seattle Craigslist rentals, score listings for signs of owner management and human-written descriptions, deduplicate repeats, and generate a browsable shortlist. The project also tracks a small set of Seattle rental-market indicators.
 
-**Python · OCR · public data · real estate · data engineering**
+### [Seattle Election & Precinct Analysis](https://github.com/shotsubakiyama/seattle-mayoral-election-2025)
 
-### [Craigslist Owner Listing Finder](https://github.com/shotsubakiyama/craigslist-owner-listing-finder)
-A local rental-discovery pipeline that identifies and ranks likely owner-managed, human-written Craigslist listings.
+A visual research project on Seattle's 2025 mayoral election using official precinct returns and GIS boundaries. It combines a history of the city's precinct system with neighborhood-level variation, unusually sharp differences across adjacent precincts, and graph-based electoral communities.
 
-It uses an explainable scoring model, SQLite storage, web scraping, deduplication, and Seattle rental-market data to surface listings that traditional search filters tend to miss.
+### [Snohomish County Tax Foreclosure Analysis](https://github.com/shotsubakiyama/snohomish-tax-foreclosure-analyzer)
 
-**Python · SQLite · classification · real estate · data pipelines**
+A public-records analysis that reconstructs how parcels move through Snohomish County's tax-foreclosure process. It links records across multiple stages into a reusable parcel-level dataset and examines auction outcomes, minimum bids, repeat purchasers, and excess funds.
 
 ## Areas I'm exploring
 
